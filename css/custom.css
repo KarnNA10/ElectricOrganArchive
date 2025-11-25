@@ -1,0 +1,190 @@
+.startButton{
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+
+    background: linear-gradient(to bottom, #339933 0%, #298029 50%, #226622 100%);
+
+    border: 1px solid #1a5c1a;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: inset 5px 8px 8px #302e2eb8, inset -2px -4px 6px #e3e3e3b2
+}
+
+.navBarXP {
+	background-color: #2561e0;
+	box-shadow: inset 0px 4px 6px #e3e3e3, inset 0px -4px 6px #302e2e;
+	padding: 0 0 0 0;
+	border: 1px solid #3c407c;
+}
+
+html{
+	background: url(img\\windows_xp_16.jpg) fixed no-repeat;
+	background-size: 100%;
+	background-position-y: 38%;
+}
+
+::selection {
+	color: #fff; /* Changes the text color of the selected text */
+	background-color: #0000ff; /* Changes the background color of the selected text */
+}
+
+/* For Firefox compatibility, use ::-moz-selection */
+::-moz-selection {
+	color: #fff;
+	background-color: #0000ff;
+}
+
+.navlinkXP {
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	border-style: outset;
+	background: #25a3e0;
+	/* margin: 16px 0px 8px 0; */
+	box-shadow: inset 3px 4px 6px #302e2eb8, inset -3px -4px 3px #e3e3e3b2;
+	border-color: #2561e0;
+	border-width: 2px;
+}
+
+ul.dropdown-menu.show{
+    padding-top: 0px;
+}
+
+#boton-nav{
+        background-color: #212529;
+        color: #ffffff8c;
+        border: 0;
+}
+#boton-nav:hover{
+    color: #ffffffbf;
+}
+
+.centrado {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mainWindow{
+    width: 100%;
+    height: 39em;
+}
+
+.nav-icons{
+    width: 35px;
+    margin: 2px 0px 2px 11px;
+    display: flex;
+}
+
+.liXP{
+    display: flex;
+}
+
+.mainContainer {
+	/* height: 80%; */
+	background: linear-gradient(-45deg, transparent, transparent, rgb(243, 243, 243)), #b8c2d2; /* #dadada */
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    margin-bottom: 50px;
+}
+
+.topliXP {
+	background: #2561e0;
+	color: #ccc;
+	display: flex;
+	flex-direction: row;
+	min-height: 50px;
+	padding: 5px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0px 17px 0px;
+	box-shadow: inset 0px 2px 3px #e3e3e3, 0px 3px 1px #dabf70;
+	background-image: linear-gradient(33deg,transparent,transparent,transparent,#2729a2);
+}
+
+.startMenuXP{
+    border: #2561e0 solid 3px;
+}
+
+.userPhoto {
+	width: 5em;
+	border: #fff solid;
+	border-radius: 8px;
+	background: #aabee5;
+}
+.username{
+    font-size:22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 0px 30px 0px 15px;
+}
+a.username:hover{
+    color: #fff;
+}
+
+.mainDiv{
+    border: #000 5px; 
+}
+
+img.banner{
+	width: 100%;
+}
+
+hr.topHrXP{
+	margin-top: 0;
+	margin-bottom: 66px;
+}
+
+.margin-row{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.btnXP{
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	border-style: outset;
+	background: #25a3e0;
+	margin: 16px 0px 8px 0;
+	box-shadow: inset 3px 4px 6px #e3e3e3b2, inset -3px -4px 3px #302e2eb8;
+	border-color: #2561e0;
+	border-width: 2px;
+}
+
+.titleXP {
+	
+	background: linear-gradient(#3371ff, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(3px 4px 3px #333);
+	/* font-weight: bold; */
+	font-style: oblique;
+	text-shadow: outer 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+h1.titleXP {
+	font-size: 4em;
+	margin-bottom: 3rem;
+}
+
+h2.titleXP {
+	font-size: 3em;
+}
+
+.table{
+	background: #375490;
+}
+.icon{
+	width: 20px;
+}
+th{
+	font-style: oblique;
+}
+
+.tool-banner {
+	/* background: url(img/toolBanner.png) no-repeat; */
+	padding-top: 3rem;
+	background-size: 100%;
+}

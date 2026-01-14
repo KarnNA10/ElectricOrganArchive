@@ -49,3 +49,12 @@ bueno sí, a lo mejor agregar un link del repositorio?
 Tengo hoy mi entrevista en veta verticaal
 deseenme suerte
 :3
+https://es.scribd.com/document/455072852/Keith-Emerson-Ballad-for-a-common-man
+document.body.innerHTML = document.body.innerHTML.replace(/transparent/g, "black")
+document.head.innerHTML = document.head.innerHTML.replace(/transparent/g, "black")
+document.body.innerHTML = document.body.innerHTML.replace(/opacity: 0.04;/g, "opacity: 1;")
+document.head.innerHTML = document.head.innerHTML.replace(/opacity: 0.04;/g, "opacity: 1;")
+document.body.innerHTML = document.body.innerHTML.replace(/text-shadow: black 0px 0px 70px;/g, " ")
+document.head.innerHTML = document.head.innerHTML.replace(/text-shadow: black 0px 0px 70px;/g, " ")
+document.body.innerHTML = document.body.innerHTML.replace(/unselectable="on"/g, " ")
+document.head.innerHTML = document.head.innerHTML.replace(/unselectable="on"/g, " ")
